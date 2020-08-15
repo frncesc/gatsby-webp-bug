@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/blog',
   siteMetadata: {
     title: `Gatsby Starter Blog`,
     author: {
@@ -34,6 +35,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
+              withWebp: true,
             },
           },
           {
